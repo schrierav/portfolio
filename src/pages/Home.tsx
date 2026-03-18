@@ -13,7 +13,7 @@ function Home() {
           </p>
 
           <h1 className="display-5 fw-bold">
-            Hi, I’m Ari.
+            Hi, I'm Ari Schrier.
           </h1>
 
           <p className="lead text-muted">
@@ -26,6 +26,9 @@ function Home() {
             </Link>
             <Link className="btn btn-outline-primary" to="/resume">
               Check Out My Resume
+            </Link>
+            <Link className="btn btn-outline-primary" to="/beyond">
+              Other, Less Professional Interests
             </Link>
             <Link className="btn btn-outline-primary" to="https://www.linkedin.com/in/ari-schrier/" target="_blank" rel="noopener noreferrer">
               Find Me On LinkedIn

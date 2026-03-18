@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-sm border-bottom bg-white sticky-top">
       <div className="container">
         <NavLink className="navbar-brand fw-semibold" to="/">
-          Your Name
+          Ari Schrier
         </NavLink>
         <div className="navbar-nav ms-auto gap-2">
           <NavLink className={linkClass} to="/">
@@ -21,7 +21,7 @@ function Navbar() {
             Resume
           </NavLink>
           <NavLink className={linkClass} to="/beyond">
-            Beyond
+            Bread
           </NavLink>
         </div>
       </div>
