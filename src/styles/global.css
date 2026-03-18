@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  color: #495057;
+}
+
+.navbar .nav-link.active {
+  color: #0d6efd;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.content-stack {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 720px;
+}
+
+.hero-section {
+  max-width: 720px;
+}
+
+.project-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.project-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  background-color: #fff;
+}
+
+.project-card ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
+.project-links {
+  font-size: 0.95rem;
+}
+
+.resume-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.resume-frame {
+  height: calc(100vh - 320px);
+  min-height: 420px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.resume-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

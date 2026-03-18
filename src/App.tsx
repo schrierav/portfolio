@@ -1,30 +1,20 @@
-import { useState } from 'react'
-import spheal from './assets/Spheal.webp'
-import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Resume from './pages/Resume'
+import Beyond from './pages/Beyond'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={spheal} className="spheal" width="400" alt="EMBRACE HIM" />
-        </div>
-        <div>
-          <h1>Spheal</h1>
-          <p>
-           Spheal has been appreciated {count} times.
-          </p>
-        </div>
-        <button
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Appreciate Spheal
-        </button>
-      </section>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="resume" element={<Resume />} />
+        <Route path="beyond" element={<Beyond />} />
+      </Route>
+    </Routes>
   )
 }
 
