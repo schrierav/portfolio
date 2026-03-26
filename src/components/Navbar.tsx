@@ -21,7 +21,7 @@ function Navbar() {
             Resume
           </NavLink>
           <NavLink className={linkClass} to="/beyond">
-            Bread
+            Beyond
           </NavLink>
         </div>
       </div>
