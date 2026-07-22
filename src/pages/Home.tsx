@@ -9,7 +9,7 @@ function Home() {
         {/* LEFT SIDE (TEXT) */}
         <div className="col-md-6 text-center text-md-start">
           <p className="text-uppercase text-muted fw-semibold small">
-            Software Engineer • Cloud Infrastructure • Full-Stack
+             • Full-Stack Software Engineer • 
           </p>
 
           <h1 className="display-5 fw-bold">
@@ -17,7 +17,7 @@ function Home() {
           </h1>
 
           <p className="lead text-muted">
-            I'm an English-teacher-turned-software-engineer who builds scalable systems and automation pipelines, with a focus on cloud infrastructure and real-world reliability.
+            I'm an English-teacher-turned-software-engineer who builds internal tools and automation pipelines, with a focus on real-world reliability.
           </p>
 
           <div className="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-md-start">
