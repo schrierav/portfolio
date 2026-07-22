@@ -51,7 +51,7 @@ function ProjectDetail() {
       </section>
 
       <section className="mb-4">
-        <h3 className="h5">Writeup</h3>
+        <h3 className="h5">In More Detail...</h3>
         <div
           className="content-stack"
           dangerouslySetInnerHTML={{ __html: project.writeup }}

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import breadshot from "../assets/bread.jpg";
 
-const tabs = ["Baking", "Board Games", "Reading", "Music"] as const;
+const tabs = ["Baking", "Board Games", "Books", "Music"] as const;
 type BeyondTab = (typeof tabs)[number];
 
 function Beyond() {
@@ -12,7 +12,7 @@ function Beyond() {
       <header className="page-header">
         <h1>Beyond Code</h1>
         <p className="text-muted">
-          In which I ramble about my love of baking
+          In which I ramble about my hobbies
         </p>
       </header>
 
@@ -75,7 +75,7 @@ function Beyond() {
         </div>
       )}
 
-      {activeTab === "Reading" && (
+      {activeTab === "Books" && (
         <div className="content-stack beyond-panel" role="tabpanel">
           <p>
             I love to read, and usually have several books going at once. I tend to trade off between doofy sci-fi and more literary fare.
@@ -87,6 +87,7 @@ function Beyond() {
             <li><strong>The Book of the New Sun</strong>: Brilliant use of language and world-building in a far-future Earth that has circled around to reading more like an alternate past. It's an unforgettable masterpiece of Science Fiction.</li>
             <li><strong>Riddley Walker</strong>: I'm a sucker for anything that's doing something unique and interesting with English, and Riddley has that in spades. 1ce yu pikkitup yew wont puttitdown.</li>
             <li><strong>Botchan</strong>: I have never identified more with a literary hero than I have with the narrator of Botchan. I was teaching in Japan 120 years after the novel was published, but my students got up to the same shenanigans that the narrator complains about.</li>
+            <li><strong>Astra & Flondrix</strong>: This book is bad. Very bad. Words cannot state how absolutely horrible of a read it is. But, it's so bad that it somehow circles around to being fascinating (and a ton of fun to read in a group).</li>
           </ul>
         </div>
       )}
@@ -94,7 +95,7 @@ function Beyond() {
       {activeTab === "Music" && (
         <div className="content-stack beyond-panel" role="tabpanel">
           <p>
-            Music is a huge part of my life, both playing and listening. I play the English concertina, and am slowly teaching myself to play the accordion in my free time. When I play, I mostly focus on Irish, English, and Jewish folk music. When I'm listening, I have a pretty wide range of tastes. I'm crazy about 70's prog rock, but I also love jazz-fusion, 'dad rock', and I have a weird love of Gilbert and Sullivan operas.
+            Music is a huge part of my life, both playing and listening. I play the English concertina, and am slowly teaching myself to play the accordion in my free time. When I play, I mostly focus on Irish, English, and Jewish folk music. When I'm listening, I have a pretty wide range of tastes. I'm crazy about 70's prog rock, but I also enjoy jazz-fusion, 'dad rock', and have a weird love of Gilbert and Sullivan operas. For a couple recent obsessions, I've been nuts about Geordie Greep, Thundercat, and Masayoshi Takanaka.
           </p>
         </div>
       )}
